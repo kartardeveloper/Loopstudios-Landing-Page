@@ -1,0 +1,71 @@
+.container {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 6px 30px;
+    border: 2px solid var(--black);
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: var(--white);
+    cursor: pointer;
+    font-family: var(--alata-font);
+    font-weight: 400;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--black);
+    color: var(--white)
+}
